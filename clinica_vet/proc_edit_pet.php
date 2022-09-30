@@ -1,13 +1,7 @@
 <?php	
 session_start();
     include_once("conexao.php");
-    $nivel = $_SESSION['UsuarioNivel'];
-        if($nivel < 2){
-            $id = $_SESSION['UsuarioID'];
-        }
-        else{
-            $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
-        }
+    $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
         
     $nome = filter_input(INPUT_POST,'nome', FILTER_SANITIZE_STRING);
     $idade = filter_input(INPUT_POST,'idade', FILTER_SANITIZE_STRING);
