@@ -1,0 +1,864 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --login-bg: #ffffff;
+  --title-bg: #2b2b2b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+}
+
+header {
+  width: 100%;
+  background: #fbfbfb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  padding-top: 5px;
+}
+
+.navbar {
+  /* tirar a margem branca de cima da pagina */
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-weight: bolder;
+}
+
+.nav-link {
+  /* estilizando os links do menu */
+  font-size: 400;
+  color: #47026c !important;
+}
+
+.nav-link:hover {
+  background-color: #47026c !important;
+  color: #ffffff !important;
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  /* deixar branco o icone do menu */
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+#navbarNavAltMarkup {
+  /* deixar no canto direito */
+  justify-content: flex-end;
+}
+
+main {
+  min-height: 100vh;
+  height: auto;
+  background-image: url(../img/wave.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agenda{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-agenda{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-agenda section{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headcalendar h2{
+  text-align: center;
+  margin-top: 1em;
+  font-weight: 600;
+}
+
+.nav-page2{
+  margin-bottom: 0 !important;
+}
+
+.container{
+  width: auto;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.table{
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 100%;
+}
+
+.btn2{
+  background-color: #47026c;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.block{
+  background-color: rgb(202, 25, 25);
+  font-weight: 600;
+}
+
+.block:hover{
+  background-color: #ffffff;
+  color: rgb(202, 25, 25) !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
+
+.btn2:hover{
+  background-color: #ffffff;
+  color: #47026c;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
+
+.table tr:first-child{
+  text-align: center;
+}
+
+
+.header{
+  min-width: 10rem;
+  background-color: #47026c !important;
+  color: #ffffff;
+}
+
+tbody{
+  max-width: 100%;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 h1{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container2 input{
+  padding: 10px;
+  width: 15em;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.btnagnd{
+  font-weight: 600;
+  background-color: rgb(22, 175, 30);
+}
+
+.btnagnd:hover{
+  color: rgb(22, 175, 30);
+  background-color: #ffffff;
+}
+
+.horarios{
+  display: flex !important;
+  flex-direction: row !important;
+  width: auto;
+}
+
+
+.ficha {
+  display: flex;
+  flex-direction: column;
+}
+
+.erro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.erro h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.erro p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.erro img {
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 4px solid #47026c;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+.nome-pet h1 {
+  font-size: 45px !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid #47026c;
+}
+.especie-pet {
+  font-size: 15px;
+  font-weight: 600 !important;
+}
+.idade-pet h1,
+.sexo-pet h1,
+.peso-pet h1 {
+  font-size: 40px;
+  font-weight: 550;
+}
+.idade-pet p,
+.sexo-pet p,
+.peso-pet p {
+  font-size: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #47026c;
+  font-weight: 600;
+}
+
+.container-castracao {
+  display: flex;
+  flex-direction: row;
+  border: 4px solid #47026c;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+}
+.castracao-pet h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.castracao-pet p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #47026c;
+  font-weight: 600;
+}
+
+.lista {
+  margin-top: 2em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffff;
+  max-width: auto;
+  max-height: auto;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.users nav,
+nav a {
+  margin-bottom: 0;
+}
+
+.pets {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffff;
+  max-width: auto;
+  max-height: auto;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.info-vet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-vet h1 {
+  font-weight: 600;
+}
+
+.h1ficha {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.diagnostico {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffff;
+  width: auto;
+  max-width: 450px;
+  max-height: auto;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}
+
+.infos p {
+  border-bottom: 2px solid #47026c;
+}
+
+.diagnostico img {
+  width: 128px;
+  height: 128px;
+  margin-right: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+}
+
+.info2 {
+  padding-left: 0;
+}
+
+.info2 nav a:first-child {
+  margin-left: 10px !important;
+}
+
+.info p {
+  border-bottom: 2px solid #47026c;
+  font-size: larger;
+}
+
+.info nav,
+p {
+  margin-bottom: 0;
+}
+
+.info nav a {
+  margin-bottom: 0;
+}
+
+.info nav a:first-child {
+  margin-left: 0;
+}
+
+.info nav a:hover {
+  color: #47026c;
+}
+
+.login-container {
+  min-height: 50vh;
+  height: auto;
+  width: 60em;
+  margin: 6em auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.loginpet-container {
+  min-height: 50vh;
+  width: 60em;
+  margin: 6em auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.login-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: var(--login-bg);
+  opacity: 1;
+}
+
+.login-info-container p {
+  margin-top: 1em;
+}
+
+.loginpet-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: var(--login-bg);
+}
+
+.msgerro {
+  margin-top: 0 !important;
+  color: red;
+}
+
+.msg {
+  margin-top: 0 !important;
+  color: green;
+}
+
+input {
+  background-color: #eceaea;
+}
+
+.image-container {
+  padding: 2rem;
+  width: 50%;
+  background-color: var(--image-bg);
+  box-sizing: border-box;
+  background-color: var(--login-bg);
+}
+.image-container2 {
+  /*img cachorro*/
+  padding: 2rem;
+  width: 50%;
+  background-color: var(--image-bg);
+  box-sizing: border-box;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--title-bg);
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo a {
+  background-color: #47026c;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.titulo a:hover {
+  background-color: #ffffff;
+  color: #47026c;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-info-container > p {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+}
+
+.loginpet-info-container > p {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+}
+
+.inputs-container {
+  height: 55%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputspet-container {
+  height: 55%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-container {
+  /*cadastro*/
+  height: auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container a:hover {
+  text-decoration: none;
+  color: #47026c;
+}
+
+.inputpet-container {
+  /*cadastro*/
+  height: 80%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-check2 {
+  display: flex;
+  background-color: #eceaea;
+  width: 90%;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.input-check2 label {
+  color: #707070;
+  font-family: inherit;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.input-check2 input:first-child {
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.input-check {
+  display: flex;
+  background-color: #eceaea;
+  width: 90%;
+  height: 3.125rem;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 0 !important;
+}
+
+.input-check label {
+  padding-left: 20px;
+  padding: 10px;
+  margin-right: 1.5em;
+  font-family: inherit;
+  color: #707070;
+}
+.labelpet label{
+  color: #000 !important;
+}
+.input-check label:first-child {
+  padding-left: 20px;
+}
+
+.input,
+.btn {
+  width: 90%;
+  height: 3.125rem;
+  font-size: 1em;
+}
+
+.btn {
+  font-weight: 600 !important;
+}
+
+.btn:hover {
+  color: #47026c;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input {
+  padding-left: 20px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+.input:hover {
+  border: 2px solid #000000;
+}
+
+.btn {
+  width: 90%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #47026c;
+  cursor: pointer;
+}
+.inputs-container p {
+  margin: 0;
+}
+
+.inputs-container a {
+  text-decoration: none !important;
+}
+
+.inputs-container a:hover {
+  text-decoration: none !important;
+  color: #47026c;
+}
+
+.inputspet-container p {
+  margin: 0;
+}
+
+.link {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.span {
+  color: rgb(3, 3, 3);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.del {
+  margin-top: 2rem;
+  color: red;
+}
+
+.del2 {
+  margin-top: 2rem;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  color: red;
+}
+.del:hover{
+    color: red!important;
+    text-decoration: underline !important;
+}
+
+.btn-outline-dark {
+  border-color: #47026c;
+  color: #47026c;
+}
+.btn-dark {
+  background-color: #47026c;
+}
+.logo-capivarias {
+  left: 150px;
+}
+
+.land {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.desc-consultas {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.nav-pag {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 1em;
+}
+
+.nav-pag a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(17, 15, 15);
+  margin: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .login-container {
+    width: 70%;
+    margin-top: 3rem;
+  }
+  .loginpet-container {
+    width: 70%;
+    margin-top: 3rem;
+  }
+  .login-info-container {
+    width: 900%;
+    border-radius: 5px;
+  }
+  .loginpet-info-container {
+    width: 900%;
+    border-radius: 5px;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .desc-consultas {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .image-container2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .login-container {
+    width: 90%;
+  }
+  .loginpet-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login-container {
+    height: 90%;
+  }
+  .loginpet-container {
+    height: 90%;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .erro img {
+    width: 200px;
+    height: 200px;
+  }
+  .card {
+    width: 100%;
+  }
+  .users img {
+    display: none;
+  }
+  .users {
+    width: 90%;
+  }
+  .titulo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .titulo a {
+    margin-left: 0;
+  }
+  .pets {
+    max-width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pets img {
+    width: 64px;
+    height: 64px;
+  }
+  .lista {
+    max-width: 100%;
+  }
+}
