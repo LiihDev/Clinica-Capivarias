@@ -26,8 +26,27 @@ Cadastro de Usuário:
 Edição do Cadastro de Usuário:
 <img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/edit_cadastro.png" width="1200" height="600" />
 
+Lista de Usuários:
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Listagem_user.png" width="1200" height="600" />
+
+Cadastro PET:
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro_pet.png" width="1200" height="600" />
+
+Edição do Cadastro PET:
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/editar_pet.png" width="1200" height="600" />
+
 Ficha do PET:
 <img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/ficha_pet.png" width="1200" height="600" />
+
+Prontuário do PET:
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Prontu%C3%A1rio.png" width="1200" height="600" />
+
+Consultas Marcadas dos PET:
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/consultas.png" width="1200" height="300" />
+
+Agenda:
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/calendario.png" width="1200" height="600" /><br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/horarios.png" width="1200" height="600" /><br>
 
 # :book: Guia de Estilização
 <a href="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Guia%20de%20Estilo.pdf"> Clique aqui para visualizar!</a>
@@ -64,6 +83,8 @@ Ilustrações: https://storyset.com/ <br>
 Vídeos: https://www.youtube.com/c/Phpstuff <br>
 https://www.youtube.com/watch?v=buZ5m5TSL2E <br>
 https://www.youtube.com/watch?v=am_wkEACtvA <br>
+https://www.devmedia.com.br/php-sistema-de-login-com-niveis-de-acesso/37217#:~:text=Haver%C3%A1%20dois%20n%C3%ADveis%20de%20acesso,)%20e%20administrador%20(2) <br>
+https://storyset.com/friends <br>
 Tipografia: https://fonts.google.com/<br>
 Paleta de Cores: https://www.softr.io/tools/svg-wave-generator <br>
 https://coolors.co/
