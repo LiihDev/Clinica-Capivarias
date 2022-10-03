@@ -3,7 +3,7 @@
 Sistema da clínica veterinária Capivárias. 
 
 Trabalho solicitado no SENAI nas disciplinas de Programação Front-End, Programação Back-End e Banco de Dados. <br>
-Case realizado pela Squad AFSS visando uma experiência real do mercado de trabalho na área de tecnologia.
+Case realizado pela Squad AFSS visando uma experiência real do mercado de trabalho na área de desenvolvimento de sistemas.
 
 # :hammer: Funcionalidades do projeto
 - ` Agendamento`: definição de data e horário do atendimento ao pet.
@@ -14,39 +14,39 @@ Case realizado pela Squad AFSS visando uma experiência real do mercado de traba
 O projeto está hospedado em: 
 
 # :pencil2: Imagens da Aplicação
-Homepage:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/home.png" width="1200" height="600" />
+Homepage: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/home.png" width="600" height="300" />
 
-Login:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/login.png" width="1200" height="600" />
+Login: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/login.png" width="600" height="300" />
 
-Cadastro de Usuário:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro.png" width="1200" height="600" />
+Cadastro de Usuário: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro.png" width="600" height="300" />
 
-Edição do Cadastro de Usuário:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/edit_cadastro.png" width="1200" height="600" />
+Edição do Cadastro de Usuário: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/edit_cadastro.png" width="600" height="300" />
 
-Lista de Usuários:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Listagem_user.png" width="1200" height="600" />
+Lista de Usuários: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Listagem_user.png" width="600" height="300" />
 
-Cadastro PET:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro_pet.png" width="1200" height="600" />
+Cadastro PET: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro_pet.png" width="600" height="300" />
 
-Edição do Cadastro PET:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/editar_pet.png" width="1200" height="600" />
+Edição do Cadastro PET: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/editar_pet.png" width="600" height="300" />
 
-Ficha do PET:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/ficha_pet.png" width="1200" height="600" />
+Ficha do PET: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/ficha_pet.png" width="600" height="300" />
 
-Prontuário do PET:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Prontu%C3%A1rio.png" width="1200" height="600" />
+Prontuário do PET: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Prontu%C3%A1rio.png" width="600" height="300" />
 
-Consultas Marcadas dos PET:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/consultas.png" width="1200" height="300" />
+Consultas Marcadas dos PET: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/consultas.png" width="600" height="150" />
 
-Agenda:
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/calendario.png" width="1200" height="600" /><br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/horarios.png" width="1200" height="600" /><br>
+Agenda: <br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/calendario.png" width="600" height="300" /><br>
+<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/horarios.png" width="600" height="300" /><br>
 
 # :book: Guia de Estilização
 <a href="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Guia%20de%20Estilo.pdf"> Clique aqui para visualizar!</a>
