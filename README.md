@@ -15,41 +15,38 @@ O projeto está hospedado em:
 
 # :pencil2: Imagens da Aplicação
 Homepage: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/home.png" width="600" height="300" />
+<img src="clinica_vet/img/home.png" width="600" height="300" />
 
 Login: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/login.png" width="600" height="300" />
+<img src="clinica_vet/img/login.png" width="600" height="300" />
 
 Cadastro de Usuário: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro.png" width="600" height="300" />
+<img src="clinica_vet/img/cadastro.png" width="600" height="300" />
 
 Edição do Cadastro de Usuário: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/edit_cadastro.png" width="600" height="300" />
+<img src="clinica_vet/img/edit_cadastro.png" width="600" height="300" />
 
 Lista de Usuários: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Listagem_user.png" width="600" height="300" />
+<img src="clinica_vet/img/Listagem_user.png" width="600" height="300" />
 
 Cadastro PET: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/cadastro_pet.png" width="600" height="300" />
+<img src="clinica_vet/img/cadastro_pet.png" width="600" height="300" />
 
 Edição do Cadastro PET: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/editar_pet.png" width="600" height="300" />
+<img src="clinica_vet/img/edit_cadastro_pet.png" width="600" height="300" />
 
 Ficha do PET: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/ficha_pet.png" width="600" height="300" />
-
-Prontuário do PET: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Prontu%C3%A1rio.png" width="600" height="300" />
+<img src="clinica_vet/img/ficha_pet.png" width="600" height="300" />
 
 Consultas Marcadas dos PET: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/consultas.png" width="600" height="150" />
+<img src="clinica_vet/img/consultas.png" width="600" height="150" />
 
 Agenda: <br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/calendario.png" width="600" height="300" /><br>
-<img src="https://github.com/LiihDev/Clinica_Capivarias/blob/main/horarios.png" width="600" height="300" /><br>
+<img src="clinica_vet/img/calendario.png" width="600" height="300" /><br>
+<img src="clinica_vet/img/horarios.png" width="600" height="300" /><br>
 
 # :book: Guia de Estilização
-<a href="https://github.com/LiihDev/Clinica_Capivarias/blob/main/Guia%20de%20Estilo.pdf"> Clique aqui para visualizar!</a>
+<a href="clinica_vet/img/Guia de Estilo.pdf"> Clique aqui para visualizar!</a>
 
 
 # :computer: Tecnologias
