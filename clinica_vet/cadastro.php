@@ -81,7 +81,7 @@ if (isset($_SESSION['UsuarioID']) AND ($_SESSION['UsuarioNivel'] < 2)) {
                 <?php
                     if (!isset($_SESSION['UsuarioID'])) {
                         echo '<p>Já possui uma conta? <a class="span" href="login.php">Login</a></p>';
-                  }
+                    }
                 ?>
             </form>
             </div>
