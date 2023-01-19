@@ -10,9 +10,6 @@ Case realizado pela Squad AFSS visando uma experiência real do mercado de traba
 - ` Perfil usuário`: login e logout do tutor do Pet.
 - ` Perfil administrador`: Acesso a funcionabilidades do administrador.
 
-# 🛠️ Abrir o projeto
-O projeto está hospedado em: 
-
 # :pencil2: Imagens da Aplicação
 Homepage: <br>
 <img src="clinica_vet/img/home.png" width="600" height="300" />
