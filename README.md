@@ -1,4 +1,4 @@
-# Clínica_Capivárias
+# Clínica Capivárias
 
 Sistema da clínica veterinária Capivárias. 
 
